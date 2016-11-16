@@ -1,6 +1,7 @@
 This repo is used for testing React web app with [Atatus Browser Monitoring](https://www.atatus.com/browser-monitoring/overview)
 
-### Instructions for testing:
+
+## Instructions for testing:
 
 1. Create a test app, after you signup with [Atatus](https://www.atatus.com/signup)
 
@@ -8,11 +9,12 @@ This repo is used for testing React web app with [Atatus Browser Monitoring](htt
 
 3. Run the app and you should start seeing the metrics captured in your test projects
 
-### How to run and test
+
+## How to run and test
 
 In the project directory, you can run:
 
-## `npm install`
+### `npm install`
 
 This will install the dependencies.
 
@@ -38,7 +40,7 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 
-### Thanks to Plot.ly
+## Thanks to Plot.ly
 
 This repo is created based on [Plot.ly React Tutorial](http://academy.plot.ly/).
 Kudos to Plot.ly teams.
