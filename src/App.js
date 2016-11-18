@@ -19,7 +19,7 @@ class App extends React.Component {
     var location = encodeURIComponent(this.props.redux.get('location'));
 
     var urlPrefix = 'http://api.openweathermap.org/data/2.5/forecast?q=';
-    var urlSuffix = '&APPID=OPEN_WEATHER_APP_ID&units=metric';
+    var urlSuffix = '&APPID=OPEN_WEATHER_MAP_APIKEY&units=metric';
     var url = urlPrefix + location + urlSuffix;
 
     this.props.dispatch(fetchData(url));
